@@ -18,8 +18,8 @@ h1 {
 }
 .image {
     float: right;
-    width: 300px; /* Ukuran lebar lingkaran */
-    height: 300px; /* Tinggi lingkaran harus sama */
+    width: 320px; /* Ukuran lebar lingkaran */
+    height: 320px; /* Tinggi lingkaran harus sama */
     border-radius: 50%; /* Membuat lingkaran */
     object-fit: cover; /* Memastikan gambar memenuhi lingkaran */
     margin: 0 20px 20px 0; /* Jarak gambar dari teks */
