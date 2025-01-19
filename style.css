@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6; /* Memberikan jarak antar baris untuk teks */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.image {
+    float: right;
+    width: 300px; /* Ukuran lebar lingkaran */
+    height: 300px; /* Tinggi lingkaran harus sama */
+    border-radius: 50%; /* Membuat lingkaran */
+    object-fit: cover; /* Memastikan gambar memenuhi lingkaran */
+    margin: 0 20px 20px 0; /* Jarak gambar dari teks */
+    border: 3px solid #ccc; /* Bingkai di sekitar lingkaran */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.footer {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.social-icon {
+    text-decoration: none; /* Menghilangkan garis bawah link */
+    color: #E1306C; /* Warna ikon Instagram */
+    font-size: 15px; /* Ukuran ikon */
+    display: inline-block; /* Membuat ikon tampil sebagai elemen blok */
+    transition: color 0.3s; /* Animasi perubahan warna */
+}
+
+.social-icon:hover {
+    color: #C13584; /* Warna saat ikon di-hover */
+}
+
+.footer i {
+    color: #ffffff;
+    margin: 0 5px;
+}
+        
