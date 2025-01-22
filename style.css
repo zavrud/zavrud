@@ -23,7 +23,7 @@ h1 {
     border-radius: 50%; /* Membuat lingkaran */
     object-fit: cover; /* Memastikan gambar memenuhi lingkaran */
     margin: 0 20px 20px 0; /* Jarak gambar dari teks */
-    border: 3px solid #ccc; /* Bingkai di sekitar lingkaran */
+    border: 3px solid black; /* Bingkai di sekitar lingkaran */
 }
 
 p {
