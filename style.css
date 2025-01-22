@@ -1,56 +1,101 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: black;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
+
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    line-height: 1.6; /* Memberikan jarak antar baris untuk teks */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6; /* Memberikan jarak antar baris untuk teks */
 }
 
 h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
+
+strong:hover {
+  color: red;
+}
+
 .image {
-    float: right;
-    width: 320px; /* Ukuran lebar lingkaran */
-    height: 320px; /* Tinggi lingkaran harus sama */
-    border-radius: 50%; /* Membuat lingkaran */
-    object-fit: cover; /* Memastikan gambar memenuhi lingkaran */
-    margin: 0 20px 20px 0; /* Jarak gambar dari teks */
-    border: 3px solid black; /* Bingkai di sekitar lingkaran */
+  float: right;
+  width: 320px; /* Ukuran lebar lingkaran */
+  height: 320px; /* Tinggi lingkaran harus sama */
+  border-radius: 50%; /* Membuat lingkaran */
+  object-fit: cover; /* Memastikan gambar memenuhi lingkaran */
+  margin: 0 20px 20px 0; /* Jarak gambar dari teks */
+  border: 3px solid black; /* Bingkai di sekitar lingkaran */
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-weight: bold;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
+
 .footer {
-    text-align: left;
-    margin-top: 20px;
+  text-align: left;
+  margin-top: 20px;
 }
 
 .social-icon {
-    text-decoration: none; /* Menghilangkan garis bawah link */
-    color: #E1306C; /* Warna ikon Instagram */
-    font-size: 15px; /* Ukuran ikon */
-    display: inline-block; /* Membuat ikon tampil sebagai elemen blok */
-    transition: color 0.3s; /* Animasi perubahan warna */
+  text-decoration: none; /* Menghilangkan garis bawah link */
+  color: #e1306c; /* Warna ikon Instagram */
+  font-size: 15px; /* Ukuran ikon */
+  display: inline-block; /* Membuat ikon tampil sebagai elemen blok */
+  transition: color 0.3s; /* Animasi perubahan warna */
 }
 
 .social-icon:hover {
-    color: #C13584; /* Warna saat ikon di-hover */
+  color: blue; /* Warna ikon saat dihover */
 }
 
 .footer i {
-    color: #ffffff;
-    margin: 0 5px;
+  color: white;
+  margin: 0 5px;
 }
-        
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .image {
+    float: none;
+    display: block;
+    margin: 20px auto; /* Pusatkan gambar pada perangkat kecil */
+  }
+
+  .footer {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .social-icon {
+    font-size: 12px;
+  }
+}
