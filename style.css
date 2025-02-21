@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: black;
-  color: #ffffff;
+  color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
@@ -16,14 +16,20 @@ body {
 h1 {
   font-size: 24px;
   margin-bottom: 20px;
+  text-align: left;
+}
+
+strong {
+  text-decoration: none;
 }
 
 strong:hover {
-  color: red;
+  color: aquamarine;
+  text-decoration: overline;
 }
 
 .image {
-  float: right;
+  float: left;
   width: 320px; /* Ukuran lebar lingkaran */
   height: 320px; /* Tinggi lingkaran harus sama */
   border-radius: 50%; /* Membuat lingkaran */
@@ -41,7 +47,15 @@ p {
 
 .footer {
   text-align: left;
-  margin-top: 20px;
+}
+
+.footer i {
+  color: whitesmoke;
+  margin: 0 5px;
+}
+
+.footer i:hover {
+  color: aquamarine
 }
 
 .social-icon {
@@ -54,11 +68,6 @@ p {
 
 .social-icon:hover {
   color: blue; /* Warna ikon saat dihover */
-}
-
-.footer i {
-  color: white;
-  margin: 0 5px;
 }
 
 /* Responsive styles */
